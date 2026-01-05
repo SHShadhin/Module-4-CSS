@@ -1,0 +1,54 @@
+.container div {
+    border: 2px solid tomato;
+    height: 100px;
+    width: 100px;
+    background-color: teal;
+    font-size: 3em;
+}
+.container {
+    display: flex;
+}
+
+.box-container .box {
+    border: 2px solid blueviolet;
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    font-size: 3em;
+}
+.box-container {
+    display: flex;
+    gap: 20px;
+}
+
+div {
+    margin-top: 20px;
+}
+
+.card-container .card {
+    border: 2px solid blueviolet;
+    height: 100px;
+    width: 100px;
+    background-color: orangered;
+    font-size: 2em;
+}
+.card-container {
+    display: flex;
+    gap: 20px;
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    justify-content: space-evenly;
+}
+
+.cards .box {
+    border: 2px solid blueviolet;
+    height: 100px;
+    width: 100px;
+    background-color: salmon;
+    font-size: 2em;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
