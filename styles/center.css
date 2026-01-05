@@ -1,0 +1,18 @@
+.container .box {
+    border: 2px solid gold;
+    height: 100px;
+    width: 100px;
+    background-color: crimson;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container {
+    background-color: blueviolet;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
